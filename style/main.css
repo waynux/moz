@@ -1,0 +1,55 @@
+body {
+  background-color: #efefef;
+}
+
+#main {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#tokens {
+  padding: 8px;
+  height: 100px;
+  border-style: dashed;
+  overflow: auto;
+}
+
+.token {
+  float: left;
+  border: 1px solid;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.token::after {
+  content: url('x.gif');
+}
+
+.token:hover {
+  opacity: 0.5;
+}
+
+#query {
+  margin-top: 30px;
+  width: 100%; 
+  border: 1px solid #7fcbae;
+  font-size: 25px;
+  border-radius: 3px;
+}
+
+#results {
+  border: 1px solid;
+  padding-left: 0px;
+  height: 500px;
+  overflow: auto;
+}
+
+.result {
+  height: 20px;
+  padding: 10px;
+}
+
+.result:hover {
+  background: #ADD8E6;
+}
